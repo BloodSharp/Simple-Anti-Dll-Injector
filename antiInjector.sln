@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiInjectorLoader", "antiInjector\antiInjector.vcproj", "{4F2A8216-B984-4F18-9DA2-9C029D09C07D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AntiInjectorDriver", "driver\antiInjectorDriver.vcproj", "{49C5A9EA-2BF8-4214-B27C-978CA85DDB53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F2A8216-B984-4F18-9DA2-9C029D09C07D}.Debug|Win32.ActiveCfg = Release|Win32
+		{4F2A8216-B984-4F18-9DA2-9C029D09C07D}.Debug|Win32.Build.0 = Release|Win32
+		{4F2A8216-B984-4F18-9DA2-9C029D09C07D}.Release|Win32.ActiveCfg = Release|Win32
+		{4F2A8216-B984-4F18-9DA2-9C029D09C07D}.Release|Win32.Build.0 = Release|Win32
+		{49C5A9EA-2BF8-4214-B27C-978CA85DDB53}.Debug|Win32.ActiveCfg = Release|Win32
+		{49C5A9EA-2BF8-4214-B27C-978CA85DDB53}.Debug|Win32.Build.0 = Release|Win32
+		{49C5A9EA-2BF8-4214-B27C-978CA85DDB53}.Release|Win32.ActiveCfg = Release|Win32
+		{49C5A9EA-2BF8-4214-B27C-978CA85DDB53}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
